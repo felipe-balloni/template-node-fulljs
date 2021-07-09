@@ -7,6 +7,7 @@ import { error404, home, jedi } from './views/pages/index';
 /** Routes **/
 let routes = {
     '/': home,
+    '/jedi': jedi
 }
 
 const router = async () => {

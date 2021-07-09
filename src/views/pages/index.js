@@ -6,7 +6,7 @@ import Error404 from './errors';
 import Home from './home';
 
 // Jedi
-import Jedi from './Jedi';
+import Jedi from './jedi';
 
 // exportar
 export const home = Home;
