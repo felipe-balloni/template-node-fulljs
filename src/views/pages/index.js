@@ -1,10 +1,14 @@
 
 //errors
-import Error404 from './errors/Error404';
+import Error404 from './errors';
 
-//Home
-import Home from './home/Home';
+//Index
+import Home from './home';
+
+// Jedi
+import Jedi from './Jedi';
 
 // exportar
-export const home = Home; 
+export const home = Home;
 export const error404 = Error404;
+export const jedi = Jedi;
